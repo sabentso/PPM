@@ -1,0 +1,195 @@
+body{ 
+    padding: 0px;
+    margin: 0px;
+    min-width: 400px;
+}
+section{
+    display: block;
+}
+.home-header{
+    position: relative;
+    z-index: 1000;
+}
+.navbar{
+    padding-top: auto;
+}
+
+.navbar-brand, .navbar-toggle-icon{
+    font-size: 20px;
+  }
+  @media (min-width:500px) {
+    .navbar-brand, .navbar-toggle-icon{
+      font-size: 1.6rem;
+    }
+  }
+
+.navbar, .navbar a, .navbar-toggle-icon {
+    color: rgb(247, 247, 52);
+
+}
+.nav-item:hover{
+    background: rgb(70, 70, 70)
+}
+    
+.top-home-content{
+    background: url(backgrounds/earth.jpeg) center center;
+    background-blend-mode: screen;
+    background-size: cover;
+}
+
+.main-home-content{
+   
+    min-height: 400px;
+}
+.marketing-heading p{
+    clear: right;
+    margin: auto;
+    max-width: 550px;
+    color: rgb(247, 247, 52);
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 
+    /* first layer at 1px */
+    -1px -1px 0px #000,
+     0px -1px 0px #000,
+     1px -1px 0px #000,
+    -1px  0px 0px #000,
+     1px  0px 0px #000,
+    -1px  1px 0px #000,
+     0px  1px 0px #000,
+     1px  1px 0px #000,
+    
+}
+.home-btn{
+    font-size: 1.3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 10px;
+    
+    font-weight: bold;
+    display: inline-block;
+}
+.home-btn:hover, .view-investments a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px rgb(247, 247, 52) solid;
+    transition: ease-in-out, border .3s ease-in-out;
+}
+.process-diagram{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    bottom: 50px;
+    line-height: 200px;
+    width: 50%;
+    max-width: 500px;
+    max-height: 200px;
+    
+    border: 1px black solid;
+}
+.bottom-home-content{
+    position: relative;
+    top: -80px;
+    padding-top: 0px;
+    background: linear-gradient(to bottom,rgb(147, 168, 199),rgb(255, 255, 255)),center center;
+    text-align: center;
+    
+    color: rgb(0, 78, 235);
+    
+}
+.historical-returns{
+    margin: auto;
+    max-width: 550px;
+    
+}
+.view-investments{
+    position:relative;
+    margin: 0 auto;
+}
+.view-investments p{
+    margin: 40px 0px;
+    
+}
+.view-investments a{
+    font-size:1.3em;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: 2px black solid;
+    padding: 10px 50px;
+}
+.main-footer{
+    color: white;
+    border: 1px black solid;
+    background-color: rgb(67, 85, 109);
+}
+
+.footer-container{
+    padding: 15px;
+    
+    min-width: 150px;
+    max-width: 1050px;
+    display: table;
+    margin: 0 auto;
+    
+}
+.small-col{
+    position: relative;
+    float: left;
+    border: 2px black solid;
+    height: 100px;
+    width: 150px;
+    display: block;
+    
+}
+.small-col>ul{
+    position: relative;
+    margin: 10px;
+    left: -30px;
+}
+.small-col>ul>li>p{
+    position: relative;
+    top: -15px;
+}
+
+.small-col-social{
+    position: relative;
+    float: left;
+    border: 2px black solid;
+    height: 100px;
+    width: 170px;
+    display: block;
+    
+    
+}
+.small-col-social>img{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.external{
+    position: relative;
+    left: 0px;
+    
+}
+.footer-legal{
+    position: relative;
+    font-size: .9em;
+    display: block;
+    width: 25%;
+    min-width: 400px;
+    border: 2px black solid;
+    float: left;
+    margin: auto;  
+}
+.legal-note{
+    position: relative;
+    top:-5px; 
+}
