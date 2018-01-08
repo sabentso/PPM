@@ -3,9 +3,7 @@ body{
     margin: 0px;
     
 }
-section{
-    display: block;
-}
+
 .home-header{
     position: relative;
     z-index: 1000;
@@ -19,7 +17,7 @@ section{
   }
   @media (max-width:500px) {
     .navbar-brand{
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   }
   
@@ -34,21 +32,21 @@ section{
     
 .top-home-content{
     background: url(backgrounds/earth.jpeg) center center;
-    background-blend-mode: screen;
+    
     background-size: cover;
 }
 
 @media (max-width:500px) {
-    .home-content{
-      font-size: .8rem;
+    .marketing-heading{
+      font-size: .9rem;
 
     }
   }
 .main-home-content{
    
-    min-height: 400px;
+    min-height: 300px;
 }
-.marketing-heading h4{
+.marketing-heading{
     font-size: 1.3em;
     margin: auto;
     max-width: 550px;
@@ -74,17 +72,9 @@ section{
     border: 2px rgb(247, 247, 52) solid;
     transition: ease-in-out, border .3s ease-in-out;
 }
-.process-diagram{
-    position: relative;
-    margin: auto;
-    margin-top: 100px;
-    bottom: 50px;
-    line-height: 200px;
-    width: 50%;
+.process-slides{
     max-width: 500px;
-    max-height: 200px;
-    
-    border: 1px black solid;
+    max-height: 500px;
 }
 .bottom-home-content{
 
@@ -99,69 +89,18 @@ section{
 }
 .main-footer{
     color: white;
-    border: 1px black solid;
     background-color: rgb(67, 85, 109);
 }
+.main-footer a{
+    color: rgb(247, 247, 52);
 
-.footer-container{
-    padding: 15px;
-    
-    min-width: 155px;
-    max-width: 1050px;
-    display: table;
-    margin: 0 auto;
-    
 }
-.small-col{
-    position: relative;
-    float: left;
-    border: 2px black solid;
-    height: 100px;
-    width: 150px;
-    display: block;
-    
-}
-.small-col>ul{
-    position: relative;
-    margin: 10px;
-    left: -30px;
-}
-.small-col>ul>li>p{
-    position: relative;
-    top: -15px;
-}
+#disclaimer hr{
+    border-color: rgb(209, 209, 209);
 
-.small-col-social{
-    position: relative;
-    float: left;
-    border: 2px black solid;
-    height: 100px;
-    width: 170px;
-    display: block;
-    
-    
 }
-.small-col-social>img{
-    position: relative;
-    left: 40px;
-    top: 10px;
-}
-.external{
-    position: relative;
-    left: 0px;
-    
-}
-.footer-legal{
-    position: relative;
-    font-size: .9em;
-    display: block;
-    width: 25%;
-    min-width: 150px;
-    border: 2px black solid;
-    float: left;
-    margin: auto;  
-}
-.legal-note{
-    position: relative;
-    top:-5px; 
+@media (min-width: 992px) {
+    #disclaimer{
+        font-size: .75rem;
+ }
 }
